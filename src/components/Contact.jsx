@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md';
 
 export default function Contact() {
   const links = [
-    { icon: MdEmail, label: 'Email', val: 'rprachi518@gmail.com', href: 'mailto:rprachi518@gmail.com', color: 'text-red-500' },
+    { icon: MdEmail, label: 'Email', val: 'prachirajput44269@gmail.com', href: 'mailto:prachirajput44269@gmail.com', color: 'text-red-500' },
     { icon: SiGithub, label: 'GitHub', val: 'github.com/Prachi088', href: 'https://github.com/Prachi088', color: 'text-gray-300' },
     { icon: FaLinkedin, label: 'LinkedIn', val: 'linkedin.com/in/prachi-rajput', href: 'https://www.linkedin.com/in/prachi-rajput', color: 'text-blue-500' },
     { icon: SiLeetcode, label: 'LeetCode', val: 'Prachi_Rajput · 100+ solved', href: 'https://leetcode.com/Prachi_Rajput', color: 'text-yellow-600' },
@@ -59,7 +59,7 @@ export default function Contact() {
           <p className="text-sm text-muted leading-relaxed mb-8">
             Targeting full-stack and backend internship roles with a focus on scalable systems, clean APIs, and high-quality frontend experiences. Flexible for remote, hybrid, or on-site opportunities.
           </p>
-          <a href="mailto:rprachi518@gmail.com" className="bg-accent text-white px-6 py-3 rounded font-semibold text-sm tracking-wider transition-all hover:bg-accent-light hover:-translate-y-0.5 hover:shadow-lg inline-block">
+          <a href="mailto:prachirajput44269@gmail.com" className="bg-accent text-white px-6 py-3 rounded font-semibold text-sm tracking-wider transition-all hover:bg-accent-light hover:-translate-y-0.5 hover:shadow-lg inline-block">
             Get in Touch →
           </a>
         </div>

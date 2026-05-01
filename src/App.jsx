@@ -11,7 +11,6 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import CursorFollower from './components/CursorFollower';
 import ScrollReveal from './components/ScrollReveal';
 
 export default function App() {
@@ -45,7 +44,6 @@ export default function App() {
 
   return (
     <div className="bg-bg text-text">
-      <CursorFollower />
       <Navbar />
       <Hero />
       <Ticker />
