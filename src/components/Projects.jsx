@@ -1,4 +1,4 @@
-import { FiExternalLink, FiGithub, FiTarget, FiZap, FiAward } from 'react-icons/fi';
+import { FiExternalLink, FiGithub, FiTarget, FiZap, FiAward, FiDatabase } from 'react-icons/fi';
 import { BiBarChart } from 'react-icons/bi';
 import { FaRocket } from 'react-icons/fa';
 
@@ -15,7 +15,8 @@ export default function Projects() {
       gradient: 'from-blue-500 to-indigo-600',
       icon: 'chart',
       liveLink: 'https://crm-frontend-drab-eight.vercel.app/',
-      githubLink: 'https://github.com/Prachi088',
+      githubLink: 'https://github.com/Prachi088/crm-frontend',
+      backendLink: 'https://github.com/Prachi088/crm-backend',
     },
     {
       num: '02',
@@ -28,7 +29,8 @@ export default function Projects() {
       gradient: 'from-purple-500 to-pink-600',
       icon: 'rocket',
       liveLink: 'https://job-portal-frontend-three-mauve.vercel.app/',
-      githubLink: 'https://github.com/Prachi088',
+      githubLink: 'https://github.com/Prachi088/job-portal-frontend',
+      backendLink: 'https://github.com/Prachi088/job-portal',
     },
   ];
 
@@ -112,7 +114,7 @@ export default function Projects() {
                 </div>
 
                 {/* Links */}
-                <div className="flex gap-3">
+                <div className="flex flex-col sm:flex-row gap-3">
                   <a
                     href={project.liveLink}
                     target="_blank"
@@ -129,8 +131,19 @@ export default function Projects() {
                     className="flex-1 flex items-center justify-center gap-2 border-2 border-slate-500 hover:border-blue-500 text-slate-300 hover:text-blue-300 font-semibold py-3 rounded-xl transition-all hover:bg-blue-500/10"
                   >
                     <FiGithub size={18} />
-                    Code
+                    Frontend Code
                   </a>
+                  {project.backendLink && (
+                    <a
+                      href={project.backendLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-2 border-2 border-slate-500 hover:border-emerald-500 text-slate-300 hover:text-emerald-300 font-semibold py-3 rounded-xl transition-all hover:bg-emerald-500/10"
+                    >
+                      <FiDatabase size={18} />
+                      Backend Code
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

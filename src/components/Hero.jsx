@@ -44,7 +44,7 @@ export default function Hero() {
             View My Work
             <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
           </a>
-          <a href="https://github.com/Prachi088" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 border-2 border-slate-300 hover:border-blue-600 text-slate-700 hover:text-blue-600 px-8 py-4 rounded-xl font-semibold transition-all hover:bg-blue-50">
+          <a href="https://github.com/Prachi088/portfolio" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 border-2 border-slate-300 hover:border-blue-600 text-slate-700 hover:text-blue-600 px-8 py-4 rounded-xl font-semibold transition-all hover:bg-blue-50">
             <FiGithub size={20} />
             GitHub
           </a>
