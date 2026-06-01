@@ -5,7 +5,7 @@ export default function Footer() {
       <ul className="flex gap-6 list-none">
         {[
           { label: 'GitHub', href: 'https://github.com/Prachi088' },
-          { label: 'LinkedIn', href: 'https://www.linkedin.com/in/prachi-rajput' },
+          { label: 'LinkedIn', href: 'https://www.linkedin.com/in/prachi-rajput-023985280' },
           { label: 'LeetCode', href: 'https://leetcode.com/u/Rajput08/' },
         ].map((link) => (
           <li key={link.label}>

@@ -3,8 +3,8 @@ import { FiMail, FiGithub, FiMapPin, FiAward, FiCalendar, FiBookOpen, FiCheckCir
 export default function About() {
   const details = [
     { icon: FiMail, label: 'Email', value: 'prachirajput44269@gmail.com', link: 'mailto:prachirajput44269@gmail.com' },
-    { icon: FiGithub, label: 'GitHub', value: 'github.com/Prachi088/portfolio', link: 'https://github.com/Prachi088/portfolio' },
-    { icon: FiBookOpen, label: 'LeetCode', value: 'Prachi_Rajput', link: 'https://leetcode.com/Prachi_Rajput' },
+    { icon: FiGithub, label: 'GitHub', value: 'github.com/Prachi088/portfolio', link: 'https://github.com/Prachi088/' },
+    { icon: FiBookOpen, label: 'LeetCode', value: 'Prachi_Rajput', link: 'https://leetcode.com/u/Rajput08/' },
     { icon: FiAward, label: 'College', value: 'SATI, Vidisha' },
     { icon: FiCalendar, label: 'Batch', value: '2023 – 2027' },
     { icon: FiCheckCircle, label: 'Status', value: 'Open to Internships', badge: true },
