@@ -28,7 +28,7 @@ export default function Projects() {
       tags: ['Spring Boot', 'React', 'PostgreSQL', 'Spring Security', 'Hibernate', 'Vercel'],
       gradient: 'from-purple-500 to-pink-600',
       icon: 'rocket',
-      liveLink: '.',
+      liveLink: 'http://job-portal-frontend-prach.s3-website.ap-south-1.amazonaws.com/',
       githubLink: 'https://github.com/Prachi088/job-portal-frontend',
       backendLink: 'https://github.com/Prachi088/job-portal',
     },
