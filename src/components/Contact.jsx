@@ -5,8 +5,8 @@ import { MdEmail } from 'react-icons/md';
 export default function Contact() {
   const links = [
     { icon: MdEmail, label: 'Email', val: 'prachirajput44269@gmail.com', href: 'mailto:prachirajput44269@gmail.com', color: 'text-red-500' },
-    { icon: SiGithub, label: 'GitHub', val: 'github.com/Prachi088/portfolio', href: 'https://github.com/Prachi088/', color: 'text-gray-300' },
-    { icon: FaLinkedin, label: 'LinkedIn', val: 'linkedin.com/in/prachi-rajput-023985280', href: 'https://www.linkedin.com/in/prachi-rajput-023985280', color: 'text-blue-500' },
+    { icon: SiGithub, label: 'GitHub', val: 'github.com/Prachi088', href: 'https://github.com/Prachi088', color: 'text-gray-300' },
+    { icon: FaLinkedin, label: 'LinkedIn', val: 'linkedin.com/in/prachi-rajput-023985280', href: 'https://linkedin.com/in/prachi-rajput-023985280', color: 'text-blue-500' },
     { icon: SiLeetcode, label: 'LeetCode', val: 'Prachi_Rajput · 100+ solved', href: 'https://leetcode.com/u/Rajput08/', color: 'text-yellow-600' },
   ];
 
