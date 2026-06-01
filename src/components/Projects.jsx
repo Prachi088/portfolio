@@ -30,7 +30,7 @@ export default function Projects() {
       icon: 'rocket',
       liveLink: 'http://job-portal-frontend-prach.s3-website.ap-south-1.amazonaws.com/',
       githubLink: 'https://github.com/Prachi088/job-portal-frontend',
-      backendLink: 'https://github.com/Prachi088/job-portal;',
+      backendLink: 'https://github.com/Prachi088/job-portal',
     },
   ];
 
